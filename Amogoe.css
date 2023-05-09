@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #23263a;
+}
+header {
+  background-color: #212336;
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo {
+  margin-top: 10px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  margin-top: 20px;
+}
+nav ul li a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.container {
+  margin: 10%;
+}
+.container h1 {
+  font-size: 45px;
+  padding: 10px;
+  color: white;
+}
+.container p {
+  padding: 10px;
+  color: #393c4c;
+}
+.container button {
+  background-color: #ff4a57;
+  border: 1px solid #ff4a57;
+  padding: 10px;
+  margin: 10px;
+}
+.container button a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.services {
+  margin: 10%;
+}
+.services h5,
+p {
+  color: white;
+}
+.services h1 {
+  color: #ff4a57;
+  font-size: 45px;
+}
+.box1 {
+  background-color: #2b2d41;
+  padding: 30px;
+  line-height: 1.5;
+}
+.box2 {
+  background-color: #2b2d41;
+  padding: 30px;
+  line-height: 1.5;
+}
+.box3 {
+  background-color: #2b2d41;
+  padding: 30px;
+  line-height: 1.5;
+}
+.boxm1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.row {
+  margin: 10%;
+}
+.row h1 {
+  color: #ff4a57;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+input {
+  padding: 20px;
+  background-color: #282a41;
+  border: 1px solid #282a41;
+}
+textarea {
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #282a41;
+  border: 1px solid #282a41;
+}
+.row button {
+  background-color: #ff4a57;
+  border: 1px solid #ff4a57;
+  padding: 20px;
+  margin-left: 17%;
+  margin-top: 20px;
+}
+.row button a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+}
